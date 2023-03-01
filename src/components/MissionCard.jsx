@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 
 class MissionCard extends Component {
   render() {
-    const { mission } = this.props;
-    const { name, year, country, destination } = mission;
+    const { name, year, country, destination } = this.props;
     return (
       <div data-testid="mission-card">
         <p data-testid="mission-name">{ name }</p>
@@ -17,12 +16,10 @@ class MissionCard extends Component {
 }
 
 MissionCard.propTypes = {
-  mission: PropTypes.shape({
-    name: PropTypes.string,
-    year: PropTypes.string,
-    country: PropTypes.string,
-    destination: PropTypes.string,
-  }).isRequired,
+  name: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
+  country: PropTypes.string.isRequired,
+  destination: PropTypes.string.isRequired,
 };
 
 export default MissionCard;

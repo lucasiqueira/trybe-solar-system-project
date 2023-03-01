@@ -8,7 +8,6 @@ class App extends React.Component {
     return (
       <>
         <Header />
-        <Title headline="Planetas" />
         <SolarSystem />
       </>
     );

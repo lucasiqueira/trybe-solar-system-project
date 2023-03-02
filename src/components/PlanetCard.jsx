@@ -5,8 +5,9 @@ import './PlanetCard.css';
 class PlanetCard extends Component {
   render() {
     const { planetName, planetImage } = this.props;
+    const lower = planetName.toLowerCase();
     return (
-      <div data-testid="planet-card" id={ planetName.toLowerCase() } className="planet">
+      <div data-testid="planet-card" id={ lower } className={ `planet ${lower}` }>
         <img src={ planetImage } alt={ `Planeta ${planetName}` } id="line" />
         <p data-testid="planet-name">{ planetName }</p>
       </div>

@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap') ;
 
 .App {
   text-align: center;
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   background-image: url('./images/background.png');
-  font-family: 'Epilogue', 'sans-serif';
-  font-weight: 300;
-  color: white;
-  width: 100%;
   background-size: 100% 100%;
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-weight: 300;
   text-align: center;
+  width: 100%;
 }

@@ -1,7 +1,7 @@
-#planets-section {
+.planets-section {
+  align-items: center;
   display: flex;
-  width: 100%;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
+  width: 100%;
 }

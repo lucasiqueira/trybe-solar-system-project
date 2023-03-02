@@ -1,0 +1,53 @@
+.mission-card {
+  margin: 20px;
+  background: rgba(24, 26, 37, 0.5);
+  /* mix-blend-mode: hard-light; */
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+  min-width: 400px;
+  height: 192px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.divisoria {
+  justify-self: center;
+}
+
+.mission-name {
+  text-transform: uppercase;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  margin-left: 27px;
+}
+
+.mission-data {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.mission-year-country {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-right: 13px;
+}
+
+.local-pin {
+  margin-left: 35px;
+}
+
+.destination-div {
+  display: flex;
+}
+
+.mission-destination{
+  justify-self: flex-start;
+}
